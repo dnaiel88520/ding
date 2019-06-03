@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asus.myapplication">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/din"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/dindong">
+        <activity android:name=".login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".register"
+            android:parentActivityName=".login" />
+        <activity
+            android:name=".user_register"
+            android:parentActivityName=".register" />
+        <activity
+            android:name=".seller_register"
+            android:parentActivityName=".register" />
+        <activity android:name=".register_success" />
+        <activity android:name=".home" />
+        <activity
+            android:name=".setting"
+            android:parentActivityName=".home" />
+        <activity android:name=".forget_password" />
+        <activity android:name=".seller_home" />
+        <activity
+            android:name=".seller_manage"
+            android:parentActivityName=".seller_home" />
+        <activity
+            android:name=".seller_order"
+            android:parentActivityName=".seller_home" />
+        <activity
+            android:name=".comment"
+            android:parentActivityName=".setting" />
+        <activity
+            android:name=".seller_shelves"
+            android:parentActivityName=".seller_manage" />
+        <activity
+            android:name=".lotto"
+            android:parentActivityName=".home" />
+        <activity android:name=".connect" />
+        <activity
+            android:name=".myorder"
+            android:parentActivityName=".home" />
+        <activity android:name=".adminui" />
+        <activity android:name=".account" />
+        <activity android:name=".review" />
+        <activity
+            android:name=".opinion"
+            android:parentActivityName=".seller_home" />
+        <activity
+            android:name=".car"
+            android:parentActivityName=".setting" />
+        <activity
+            android:name=".coco"
+            android:parentActivityName=".home" />
+        <activity
+            android:name=".center"
+            android:parentActivityName=".setting" />
+        <activity
+            android:name=".changepw"
+            android:parentActivityName=".center" />
+        <activity android:name=".newaccount" />
+        <activity
+            android:name=".teasoup"
+            android:parentActivityName=".home" />
+        <activity
+            android:name=".dayung"
+            android:parentActivityName=".home" />
+        <activity
+            android:name=".heart"
+            android:parentActivityName=".home" />
+        <activity
+            android:name=".alley"
+            android:parentActivityName=".home" />
+        <activity
+            android:name=".milkshop"
+            android:parentActivityName=".home" />
+        <activity android:name=".orderdetail" />
+
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/buttonshape" />
+
+        <activity
+            android:name=".checksend"
+            android:parentActivityName=".setting" />
+        <activity android:name=".activities.MainActivity" />
+        <activity android:name=".activities.drinkActivity" />
+        <activity
+            android:name=".order1"
+            android:parentActivityName=".home" />
+        <activity android:name=".proupdata" />
+        <activity
+            android:name=".myorderdetail"
+            android:parentActivityName=".produceshow" />
+        <activity
+            android:name=".produceshow"
+            android:parentActivityName=".order1" />
+        <activity android:name=".chooseshow" />
+        <activity
+            android:name=".history"
+            android:parentActivityName=".setting" />
+        <activity android:name=".prodetail" />
+        <activity
+            android:name=".orderrequest"
+            android:parentActivityName=".seller_order" />
+        <activity android:name=".discount1"></activity>
+    </application>
+
+</manifest>

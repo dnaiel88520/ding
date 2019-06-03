@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">訂訂噹噹</string>
+    <string name="title_activity_login">Sign in</string>
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_seller">seller</string>
+    <string name="get_data">Get data</string>
+
+    <array name="seller_name">
+        <item>CoCo</item>
+        <item>清心</item>
+        <item>茶湯會</item>
+        <item>斜角巷</item>
+    </array>
+    <string-array name="coco">
+        <item>珍珠奶茶</item>
+        <item>百香雙響炮</item>
+        <item>鮮橙柚冰茶</item>
+        <item>仙草奶凍</item>
+    </string-array>
+    <string-array name="teasoup">
+        <item>觀音拿鐵</item>
+        <item>翡翠檸檬</item>
+        <item>檸檬蘆薈</item>
+        <item>珍珠紅豆拿鐵</item>
+    </string-array>
+    <string-array name="dayung">
+        <item>奇異果冰鑽</item>
+        <item>百香果舒活</item>
+        <item>冰淇淋紅茶</item>
+        <item>芒果冰沙</item>
+    </string-array>
+    <string-array name="heart">
+        <item>茉香綠茶</item>
+        <item>麥香紅茶</item>
+        <item>優多綠茶</item>
+        <item>仙草凍奶茶</item>
+    </string-array>
+    <string-array name="alley">
+        <item>三巷奶茶</item>
+        <item>盆栽奶茶</item>
+        <item>皇家9號拿鐵</item>
+        <item>戀上海檸威</item>
+    </string-array>
+    <string-array name="milkshop">
+        <item>大正紅茶</item>
+        <item>珍珠紅茶拿鐵</item>
+        <item>草莓鮮奶</item>
+        <item>冬瓜青茶</item>
+    </string-array>
+    <string-array name="ice">
+        <item>正常冰</item>
+        <item>半冰</item>
+        <item>去冰</item>
+        <item>溫</item>
+        <item>熱</item>
+    </string-array>
+    <string-array name="sweet">
+        <item>正常甜</item>
+        <item>微糖</item>
+        <item>半糖</item>
+        <item>少糖</item>
+        <item>無糖</item>
+    </string-array>
+    <string-array name="sellers">
+        <item>COCO都可</item>
+        <item>茶湯會</item>
+        <item>大苑子</item>
+        <item>清新福全</item>
+        <item>斜角巷</item>
+        <item>迷克夏</item>
+    </string-array>
+    <string-array name="cup">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+</resources>

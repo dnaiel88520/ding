@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".seller_register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_weight="0"
+            android:text="會員註冊"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="110dp"
+            tools:layout_editor_absoluteY="4dp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:text="賣方"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="164dp"
+            tools:layout_editor_absoluteY="68dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="410dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="147dp"
+                android:layout_height="match_parent"
+                android:text="帳號:"
+                android:textAlignment="center"
+                android:textSize="28sp"
+                tools:layout_editor_absoluteX="24dp"
+                tools:layout_editor_absoluteY="119dp" />
+
+            <EditText
+                android:id="@+id/sellaccount"
+                android:layout_width="235dp"
+                android:layout_height="48dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="85dp"
+                tools:layout_editor_absoluteY="167dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="147dp"
+                android:layout_height="match_parent"
+                android:text="密碼:"
+                android:textAlignment="center"
+                android:textSize="28sp"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <EditText
+                android:id="@+id/sellpassword"
+                android:layout_width="234dp"
+                android:layout_height="47dp"
+                android:ems="10"
+                android:inputType="textPassword"
+                tools:layout_editor_absoluteX="96dp"
+                tools:layout_editor_absoluteY="216dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="147dp"
+                android:layout_height="match_parent"
+                android:text="店家名稱:"
+                android:textAlignment="center"
+                android:textSize="28sp"
+                tools:layout_editor_absoluteX="7dp"
+                tools:layout_editor_absoluteY="77dp" />
+
+            <EditText
+                android:id="@+id/sellername"
+                android:layout_width="238dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="99dp"
+                tools:layout_editor_absoluteY="112dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="147dp"
+                android:layout_height="56dp"
+                android:text="店家電話:"
+                android:textAlignment="center"
+                android:textSize="28sp"
+                tools:layout_editor_absoluteX="4dp"
+                tools:layout_editor_absoluteY="219dp" />
+
+            <EditText
+                android:id="@+id/sellphone"
+                android:layout_width="234dp"
+                android:layout_height="56dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:maxLength="10"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="374dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="147dp"
+                android:layout_height="56dp"
+                android:text="地址:"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                tools:layout_editor_absoluteX="24dp"
+                tools:layout_editor_absoluteY="170dp" />
+
+            <EditText
+                android:id="@+id/selladdress"
+                android:layout_width="238dp"
+                android:layout_height="56dp"
+                android:ems="10"
+                android:inputType="textPostalAddress"
+                tools:layout_editor_absoluteX="85dp"
+                tools:layout_editor_absoluteY="279dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="116dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:background="@drawable/btn_primary"
+                android:text="展示" />
+
+            <Button
+                android:id="@+id/btn_next"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/btn_orange"
+                android:text="確認"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="294dp"
+                tools:layout_editor_absoluteY="394dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
